@@ -1,0 +1,59 @@
+/* #set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+p font-family helvetica {
+  font-size: 24px;
+} */
+
+/* #intro{
+    display: block;
+} */
+#video{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+#intro{
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100vh;
+ 
+
+}
+h1{
+    font-size: 38px;
+    color: white;
+}
+.content:nth-child(1),.content:nth-child(4),.content:nth-child(7),.content:nth-child(10),.content:nth-child(13){
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+   
+}
+.content:nth-child(2),.content:nth-child(5),.content:nth-child(8),.content:nth-child(11),.content:nth-child(14){
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
+    color: white;
+   
+}
+.content:nth-child(3),.content:nth-child(6),.content:nth-child(9),.content:nth-child(12),.content:nth-child(15){
+    background-color: rgb(11, 170, 255);
+    opacity: 0.5;
+    color: white;
+   
+}
